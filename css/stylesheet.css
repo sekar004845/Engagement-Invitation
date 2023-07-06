@@ -36,8 +36,8 @@ body{
 }
 @media(min-width:320px){
     .sec-1{
-        background:linear-gradient(#000000a8,#00000078),url(image/IMG-20230705-WA0059.jpg);
-        height: 100vh;
+        background:linear-gradient(#000000a8,#00000078),url(image/Screenshot(64).png);
+        height: 75vh;
         text-align: center;
         background-size:cover;
         display: flex;
@@ -47,7 +47,7 @@ body{
 @media(min-width:720px){
     .sec-1{
         background:linear-gradient(#000000a8,#00000078),url(image/IMG-20230705-WA0059.jpg);
-        height: 100vh;
+        height: 75vh;
         text-align: center;
         background-size:cover;
         display: flex;
