@@ -17,38 +17,6 @@ body{
     font-family: auto;
     font-size: 30px;
 }
-                                          /*section-1*/
-.sec-1{
-     background:linear-gradient(#000000a8,#00000078),url(image/IMG-20230705-WA0059.jpg);
-     height: 100vh;
-     text-align: center;
-     background-size:cover;
-     display: flex;
-     align-items: center;
-}
-.col h2 i{
-    color: red;
-    padding: 5px;
-}
-.col h2{
-    font-family: -webkit-body;
-    font-weight: 500;
-}
-@media(min-width:320px){
-    .sec-1{
-        height: 50vh;
-   }
-}
-@media(min-width:720px){
-    .sec-1{
-        height: 75vh;
-   }
-}
-@media(min-width:1020px){
-    .sec-1{
-        height: 100vh;
-   }
-}
 
                                           /*section-2*/
 
@@ -91,6 +59,16 @@ body{
     color: #a4a732;
     font-weight: bolder;
 }
+.image i{
+    color: red;
+    padding: 5px;
+}
+.image{
+    text-align: center;
+}
+.image img{
+    border-radius: 10%;
+}
 
                                         /*Footer*/
 .section-last{
@@ -109,7 +87,11 @@ body{
     border-radius: 50%;
     padding: 10px;
 }
-
+span{
+    color: #4cf30a;
+    font-weight: 600;
+    font-family: -webkit-body;
+}
 @media(min-width:320px){
     .last-img img{
         max-width: 20%;
