@@ -36,33 +36,17 @@ body{
 }
 @media(min-width:320px){
     .sec-1{
-        background:linear-gradient(#000000a8,#00000078),url(image/Screenshot(64).png);
-        height: 30vh;
-        text-align: center;
-        background-size:cover;
-        background-position: left;
-        display: flex;
-        align-items: center;
+        height: 50vh;
    }
 }
 @media(min-width:720px){
     .sec-1{
-        background:linear-gradient(#000000a8,#00000078),url(image/IMG-20230705-WA0059.jpg);
         height: 75vh;
-        text-align: center;
-        background-size:cover;
-        display: flex;
-        align-items: center;
    }
 }
 @media(min-width:1020px){
     .sec-1{
-        background:linear-gradient(#000000a8,#00000078),url(image/IMG-20230705-WA0059.jpg);
         height: 100vh;
-        text-align: center;
-        background-size:cover;
-        display: flex;
-        align-items: center;
    }
 }
 
